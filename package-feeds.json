@@ -400,6 +400,11 @@
       "name": "Nictiz Implementation Guides",
       "url": "https://ig.nictiz.nl/package-feed.xml",
       "errors": "servicedesk|nictiz_nl"
+    },
+    {
+      "name": "Inera",
+      "url": "https://fhir.inera.se/ig/package-feed.xml",
+      "errors": "fhir|inera_se"
     }
   ],
   "package-restrictions": [
@@ -604,6 +609,10 @@
     {
       "mask": "nictiz.nl.*",
       "feeds": [ "https://ig.nictiz.nl/package-feed.xml" ]
+    },
+    {
+      "mask": "inera.*",
+      "feeds": [ "https://fhir.inera.se/ig/package-feed.xml" ]
     }
   ]
 
